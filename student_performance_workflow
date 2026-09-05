@@ -1,0 +1,40 @@
+digraph {
+	rankdir=TB size="10,15"
+	node [fontname=Helvetica fontsize=14 shape=box style="filled,rounded"]
+	A [label="Data Collection
+
+• Academic Records
+• LMS Data
+• Demographics" fillcolor="#A7C7E7"]
+	B [label="Data Preprocessing
+
+• Cleaning
+• Handling Missing Values
+• Normalization" fillcolor="#B5EAD7"]
+	C [label="Feature Selection
+
+• Important Features
+• Remove Irrelevant Data
+• Dimensionality Reduction" fillcolor="#FFF5BA"]
+	D [label="ANN Training
+
+• Forward Propagation
+• Backpropagation
+• Weight Updates" fillcolor="#FFDAC1"]
+	E [label="Model Evaluation
+
+• Accuracy
+• Precision
+• Recall
+• F1 Score" fillcolor="#E2F0CB"]
+	F [label="Performance Prediction
+
+• Final Output
+• Pass/Fail or Grades
+• Insights for Teachers" fillcolor="#D5AAFF"]
+	A -> B
+	B -> C
+	C -> D
+	D -> E
+	E -> F
+}
